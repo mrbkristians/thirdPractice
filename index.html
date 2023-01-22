@@ -1,0 +1,231 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-eguiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="style1.css">
+
+        <script src="main.js" defer></script>
+
+        <title>Third Practice</title>
+
+    </head>
+    <body>
+
+        <button id="myBtn" onclick="topFunction()" title="Go to top">Top</button> <!--Go back to top button-->
+
+        <div class="fix-bar"> <!--Sign In and log in bar-->
+            <div class="fix-bar-item">
+                <p><script src="add-content.js"></script></p>
+            </div>
+            <div id="message" class="fix-bar-item">❤</div>
+            <div class="fix-bar-item log"> <div class="center">
+                <input type="checkbox" id="show">
+                <label for="show" class="show-btn">Log In</label>
+                <div class="login-container">
+                    <label for="show" class="close-btn fas fa-times" title="close"></label>
+                    <div class="text">Login Form</div>
+                    <form action="#">
+                        <div class="data">
+                            <label>Email or Phone number</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="data">
+                            <label>Password</label>
+                            <input type="password" required>
+                        </div>
+                        <div class="forgot-pass">
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                        <div class="btn">
+                            <div class="inner"></div>
+                            <button type="submit">login</button>
+                        </div>
+                        <div class="signup-link">
+                            Not a member? <a href="#">Signup now</a>
+                        </div>
+                    </form>
+                </div> 
+            </div>
+    </div>
+            <div class="fix-bar-item reg"><button><a href="#">Sign Up</a></button></div>
+        </div>
+
+       
+        <header> 
+            <nav> 
+               <div class="nav-container">
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="#logo"><i class="fa fa-home"></i>Home</a></li>
+                    <li class="nav-item"><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                    <li class="nav-item"><a href="#portfolio"><i class="fa fa-thumb-tack"></i>Portfolio</a></li>
+                    <li class="nav-item nav-item-dropdown">
+                        <a class="dropdown-trigger" href="#services">
+                            <i class="fa fa-gears"></i>
+                            Services
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-menu-item"><a href="#">Dropdown Item 1</a></li>
+                            <li class="dropdown-menu-item"><a href="#">Dropdown Item 2</a></li>
+                            <li class="dropdown-menu-item"><a href="#">Dropdown Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#gallery"><i class="fa fa-picture-o"></i>Gallery</a></li>
+                    <li class="nav-item"><a href="#contact"><i class="fa fa-phone"></i>Contact</a></li>
+                </ul>
+               </div>
+            </nav>
+        </header>
+
+
+
+
+
+
+
+
+        <main>
+            <h1 class="first-header">Header for main part</h1>
+            <div id="columns">
+                <div id="first-p">
+                    <h2>Header for first</h2>
+                </div>
+                <div id="second-p">
+                    <h2>Text by your wish</h2>
+                </div>
+            </div>
+
+           <!-- <div class="form" id="form">
+                <form class="formContainer" id="actualForm" action="#" method="post" target="_blank">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your Name ....">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="fname" name="lastname" placeholder="Your Surname ....">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="choose">Choose the country</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">American Bitch</option>
+                        <option value="russia">Russia MDFucker</option>
+                    </select>
+
+                    <input id="submit" type="button" value="Submit" onclick="getInput()" >
+                </form>
+            </div>-->
+
+
+            <section>
+                <h1>Scroll Down to Reveal Elements &#8595;</h1>
+            </section>
+
+            <section>
+                <div class="container reveal fade-bottom">
+                    <h2>Caption</h2>
+                    <div class="text-container">
+                        <div class="text-box">
+                            <h3>Section Text</h3>
+                            <p>Random Text</p>
+                        </div>
+                        <div class="text-box">
+                            <h3>Section Text</h3>
+                            <p>Random Text</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container reveal fade-left">
+                    <h2>Caption</h2>
+                    <div class="text-container">
+                        <div class="text-box">
+                            <h3>Section Text</h3>
+                            <p>Random Text</p>
+                        </div>
+                        <div class="text-box">
+                            <h3>Section Text</h3>
+                            <p>Random Text</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container reveal fade-right">
+                    <h2>Caption</h2>
+                    <div class="text-container">
+                        <div class="text-box">
+                            <h3>Section Text</h3>
+                            <p>Random Text</p>
+                        </div>
+                        <div class="text-box">
+                            <h3>Section Text</h3>
+                            <p>Random Text</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+
+
+
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <h3>Company's <span>Name Yo</span></h3>
+                <p class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Blog</a>
+                </p>
+
+                <p class="footer-company-name">Copyright © 2022 <strong>Company's Name Yo </strong>All rights reserved </p>
+            </div>
+
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Location </span>Yo</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+ *** ******</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="#">emailadresscom</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about"><span>About the Company </span><strong>Company's Name Yo </strong>text as you wish</p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
